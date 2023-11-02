@@ -1,5 +1,5 @@
 import { apiSlice } from '../apiSlice';
-const PRODUCTS_URL = '/api/products';
+const PRODUCTS_URL = 'https://prosperix.onrender.com/api/products';
 
 export const productApiSlice = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
